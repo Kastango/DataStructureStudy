@@ -4,7 +4,7 @@
 |--------------|---------------------|---------------------|----------------------|---------------------|---------------------|--------------------|-----------------------|
 |Pilha Estática|   Θ(1)              |   Θ(1)              |   Θ(1)               |   Θ(1)              |   Θ(1)              |   Θ(1)             |   Θ(N)                |
 |Lista Estática|   Θ(N)              |   Θ(N)              |   Θ(1)               |   Θ(1)              |   Θ(N)              |   Θ(N)             |   Θ(N)                |
-|Lista Simplesmente Encadeada|
+|Lista Simplesmente Encadeada| Θ(N)  |   Θ(N)              |   Θ(1)               |   Θ(1)              |   Θ(N)              |   Θ(N)             |   Θ(N)                |
 |Lista duplamente Encadeada|
 
 ### 2. Qual a complexidade de tempo no pior caso, melhor caso e caso médio para os seguintes algoritmos de ordenação: Heapsort, Mergesort, Quicksort, Insertsort, Selectionsort, Bubblesort
