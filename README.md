@@ -37,6 +37,44 @@
 ``` 2, 4, 5, 8, 10, 13, 14, 15, 20 ```
 
 ### 5. Descreva as struct dos descritores e dos nó (quando for o caso) para a implementação das seguintes estruturas de dados: lista estática, lista dinâmica simplesmente encadeada, fila estática, fila simplesmente encadeada. As estrutura devem ser tais que inserções e remoções nas extremidades (início e fim), quando for o caso, são realizadas em O(1).
+
+**Lista Estática**
+```C```
+
+**Lista Dinâmica Simplesmente Encadeada**
+```C
+typedef struct node{
+  struct node *next;
+  void *data;
+} node_t;
+
+struct dynamic_list{
+  int qtd;
+  int size;
+  node_t *head;
+  node_t *tail;
+};
+```
+
+**Fila Estática**
+```C```
+
+**Fila Simplesmente Encadeada**
+```C
+typedef struct node{
+  struct node *next;
+  void *data;
+} node_t;
+
+struct dynamic_list{
+  int qtd;
+  int size;
+  node_t *head;
+};
+
+```
+
+
 ### 6. Ilustre o estado das tabelas de espalhamento (hash) abaixo após a inserção dos valores: 1, 4, 20, 13, 12, 10, 7, 33, 40, 15, 14, 30:
   * Tabela hash com 10 posições e colisão resolvida por encadeamento e função de hash h(k) = k%10
   * Tabela hash com 20 posições e colisão resolvida por sondagem linear e função de hash base g(k) = k%20
