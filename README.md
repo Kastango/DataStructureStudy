@@ -28,6 +28,15 @@
  
  
 ### 4. Considere uma árvore binária de busca não balenciada, após a inserção dos seguintes valores nesta ordem: 10, 15, 5, 13, 20, 4, 8, 2, 14; qual o resultado (ordem de processamento) dos percursos: pré-ordem, em-ordem e pós-ordem?
+[![image](https://user-images.githubusercontent.com/21091242/118016450-c7ae8100-b32b-11eb-9fa0-880b2465fd06.png)](https://visualgo.net/en/bst?slide=1)
+**Pre-Order:** Começa da Raiz indo para esquerda primeiro e depois para a direita
+``` ```
+
+**Post-Order:** Começa do Primeiro Node mais a esquerda
+
+**In-Order:** É na Ordem
+``` 2, 4, 5, 8, 10, 13, 14, 15, 20 ```
+
 ### 5. Descreva as struct dos descritores e dos nó (quando for o caso) para a implementação das seguintes estruturas de dados: lista estática, lista dinâmica simplesmente encadeada, fila estática, fila simplesmente encadeada. As estrutura devem ser tais que inserções e remoções nas extremidades (início e fim), quando for o caso, são realizadas em O(1).
 ### 6. Ilustre o estado das tabelas de espalhamento (hash) abaixo após a inserção dos valores: 1, 4, 20, 13, 12, 10, 7, 33, 40, 15, 14, 30:
   * Tabela hash com 10 posições e colisão resolvida por encadeamento e função de hash h(k) = k%10
