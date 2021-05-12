@@ -88,5 +88,14 @@ struct dynamic_list{
   * Tabela hash com 20 posições e colisão resolvida por sondagem linear e função de hash base g(k) = k%20
   * Tabela hash com 20 posições e colisão resolvida por sondagem quadrática e função de hash base g(k) = k%20
 ### 7. Explique os três tipos se sondagem para tabelas de espalhamento (hash).
+ * **Linear** g(k, i) = (h(k) + i) % m
+   * Nessa sondagem apos a primeira tentativa soma-se 1 no índice para a seguinte 
+   * Primeiro tentamos T[h(k)], depois T[h(k) + 1], T[h(k) + 2], ...
+   * É facil de implementar entretando gera clusters(longas sequencias ocupadas)
+ * **Quadrática** g(k, i) = (h(k) + c₁i + c₂i²) % m
+   * Depois da primeira tentativa os proximos valores dependem do número de sondagens que ocorreram
+ * **Hash Duplo** g(k, i) = (h₁(k) + ih₂(k)) % m
+   * Depois da primeira tentativa ele faz uso de outra função de hash para gerar a posição, os valores h₂ e m devem ser primos entre sí
+
 ### 8. Explique o algoritmo de heapsort, mergesort e quicksort.
 ### 9. Explique o que são Pilhas, Listas e Filas.
