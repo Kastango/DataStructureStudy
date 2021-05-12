@@ -100,7 +100,12 @@ struct dynamic_list{
 ### 8. Explique o algoritmo de heapsort, mergesort e quicksort.
  **Heapsort**
  
+ 
+ ![image](https://lamfo-unb.github.io/img/Sorting-algorithms/Sorting_heapsort_anim.gif)
+ 
  **Mergesort**
+ 
+  ![image](https://i.ibb.co/PW34M2v/merge-sort-gif-9.gif)
  
  **QuickSort** é um dos algorítimos de orneção mais eficientes, também um dos mais usados. Ele funciona selecionando um número pivo, que irá separar os números menores que ele à sua esquerda e os maiores a direita. Com os dados particionados, através de recursão a etapa é realizada novamente, portanto separa-se cada uma das metades anteriores em lado esquerdo menor que o pivo e o lado direito maior que o pivo. O Seu pior caso tem complexidade de O(n²)
  
