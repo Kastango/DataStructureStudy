@@ -29,10 +29,9 @@
  
 ### 4. Considere uma árvore binária de busca não balenciada, após a inserção dos seguintes valores nesta ordem: 10, 15, 5, 13, 20, 4, 8, 2, 14; qual o resultado (ordem de processamento) dos percursos: pré-ordem, em-ordem e pós-ordem?
 [![image](https://user-images.githubusercontent.com/21091242/118016450-c7ae8100-b32b-11eb-9fa0-880b2465fd06.png)](https://visualgo.net/en/bst?slide=1)
-**Pre-Order:** Começa da Raiz indo para esquerda primeiro e depois para a direita
-``` ```
+**Pre-Order:** Começa da Raiz indo para esquerda primeiro e depois para a direita ``` 10, 5, 4, 2, 8, 15, 13, 14, 20 ```
 
-**Post-Order:** Começa do Primeiro Node mais a esquerda
+**Post-Order:** Começa do Primeiro Node mais a esquerda ```2, 4, 8, 5, 14, 13, 20, 15, 10```
 
 **In-Order:** É na Ordem
 ``` 2, 4, 5, 8, 10, 13, 14, 15, 20 ```
