@@ -102,8 +102,8 @@ struct dynamic_list{
  
  **Mergesort**
  
- **QuickSort** é um dos algorítimos de orneção mais eficientes, também um dos mais usados. Ele funciona selecionando um número pivo, que irá separar os números menores que ele à sua esquerda e os maiores a direita. Com os dados particionados, através de recursão a etapa é arealizada novamente, portanto separa-se cada uma das metades anteriores no lado esquerdo menor que o pivo e o lado direito maior que o pivo.
- ![image](https://user-images.githubusercontent.com/21091242/118054325-72d72e80-b35c-11eb-8099-104fc8c437d1.png)
+ **QuickSort** é um dos algorítimos de orneção mais eficientes, também um dos mais usados. Ele funciona selecionando um número pivo, que irá separar os números menores que ele à sua esquerda e os maiores a direita. Com os dados particionados, através de recursão a etapa é realizada novamente, portanto separa-se cada uma das metades anteriores em lado esquerdo menor que o pivo e o lado direito maior que o pivo. O Seu pior caso tem complexidade de O(n²)
+ ![image](https://upload.wikimedia.org/wikipedia/commons/6/6a/Sorting_quicksort_anim.gif)
 
 
 ### 9. Explique o que são Pilhas, Listas e Filas.
