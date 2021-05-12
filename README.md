@@ -77,6 +77,14 @@ struct dynamic_list{
 
 ### 6. Ilustre o estado das tabelas de espalhamento (hash) abaixo após a inserção dos valores: 1, 4, 20, 13, 12, 10, 7, 33, 40, 15, 14, 30:
   * Tabela hash com 10 posições e colisão resolvida por encadeamento e função de hash h(k) = k%10
+ 
+  | 0  | 1  |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 |
+  |----|----|----|----|----|----|----|----|----|----|
+  |[20]| [1]|[12]|[13]|[4] |[15]|    |[7] |    |    |
+  |[10]|    |    |[33]|[14]|    |    |    |    |    |
+  |[40]|    |    |[33]|    |    |    |    |    |    |
+  |[30]|    |    |    |    |    |    |    |    |    |
+
   * Tabela hash com 20 posições e colisão resolvida por sondagem linear e função de hash base g(k) = k%20
   * Tabela hash com 20 posições e colisão resolvida por sondagem quadrática e função de hash base g(k) = k%20
 ### 7. Explique os três tipos se sondagem para tabelas de espalhamento (hash).
