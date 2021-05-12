@@ -18,6 +18,14 @@
  
  **Árvores Binárias** todos os graus da árvore são limitados a 2: Para todo nó n, grau(n) em {0, 1, 2}.
  
+ **Árvore n-ária** árvores nas quais todos os nodos internos obrigatoriamente tem "n" filhos
+ 
+ **Grau de uma árvore** é quantidade de filhos de um nó (subárvores)
+ 
+ **Nó Raiz** É aquele que não possui pai, é o primeiro nó. Raiz possui nível 1, soma-se um cada vez que descer para um filho.
+ 
+ **Nó Folha** Um nó de Grau zero é denominado nó folha.
+ 
  
 ### 4. Considere uma árvore binária de busca não balenciada, após a inserção dos seguintes valores nesta ordem: 10, 15, 5, 13, 20, 4, 8, 2, 14; qual o resultado (ordem de processamento) dos percursos: pré-ordem, em-ordem e pós-ordem?
 ### 5. Descreva as struct dos descritores e dos nó (quando for o caso) para a implementação das seguintes estruturas de dados: lista estática, lista dinâmica simplesmente encadeada, fila estática, fila simplesmente encadeada. As estrutura devem ser tais que inserções e remoções nas extremidades (início e fim), quando for o caso, são realizadas em O(1).
