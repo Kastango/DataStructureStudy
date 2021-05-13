@@ -125,7 +125,7 @@ struct dynamic_list{
    * Depois da primeira tentativa ele faz uso de outra função de hash para gerar a posição, os valores h₂ e m devem ser primos entre sí
 
 ### 8. Explique o algoritmo de heapsort, mergesort e quicksort.
- **Heapsort**
+ **Heapsort** dentro os algoritmos complexos, heapsort é o mais lento. Seu funcionamento se baseia em estruturar o array em uma arvore binaria e ordenado de modo a deixar o maior numero como a raiz do árvore. Durante a construção do Heap, é feita a analise de cada uma das subarvores, partindo das folhas ate a raiz, deixando sempre o maior numero daquele conjunto como o seu nó. Detalhe que, sempre que há mudança em uma subarvore, ela deve ser reordenada. Desta forma, após todo o processo, o maior número de toda a estrutura terminará como a raiz, ou seja, como a posição 0 do array inicial. E então, será feito uma troca, levando a raiz para a ultima posição do array e o valor da ultima posição para raiz, ao mesmo tempo que será diminuido o tamanho do array em um, eliminando o ultimo elemento ( antiga raiz e maior numero ) da árvore. Após isso, a arvore será reordenada, com seu novo numero de elementos, em todas os nós necessários e então o processo se repetirá até que não reste elementos na arvore.
  
  
  ![image](https://lamfo-unb.github.io/img/Sorting-algorithms/Sorting_heapsort_anim.gif)
