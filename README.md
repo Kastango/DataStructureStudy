@@ -107,7 +107,7 @@ struct dynamic_list{
  
   ![image](https://i.ibb.co/PW34M2v/merge-sort-gif-9.gif)
  
- **QuickSort** é um dos algorítimos de orneção mais eficientes, também um dos mais usados. Ele funciona selecionando um número pivo, que irá separar os números menores que ele à sua esquerda e os maiores a direita. Com os dados particionados, através de recursão a etapa é realizada novamente, portanto separa-se cada uma das metades anteriores em lado esquerdo menor que o pivo e o lado direito maior que o pivo. O Seu pior caso tem complexidade de O(n²)
+ **QuickSort** é um dos algorítimos de orneção mais eficientes de Divide and Conquer. Ele funciona selecionando um número pivo, que irá separar os números menores que ele à sua esquerda e os maiores a direita. Após essa partição, o pivot está em sua posição final. Isso é chamado de operação de partição. através de recursão a etapa é realizada novamente nos subarrays de elementos com valores menores separadamente ao sbuconjunto de velementos com valores maiores. O Seu pior caso tem complexidade de O(n²)
  
  ![image](https://upload.wikimedia.org/wikipedia/commons/6/6a/Sorting_quicksort_anim.gif)
 
