@@ -45,7 +45,8 @@ struct voidList {
     void** data;
     int max_itens;
     int size;
-}; ```
+}; 
+```
 
 **Lista Dinâmica Simplesmente Encadeada**
 ```C
@@ -69,7 +70,8 @@ struct voidQueue {
     void** data;
     int max_itens;
     int size;
-}; ```
+}; 
+```
 
 **Fila Simplesmente Encadeada**
 ```C
