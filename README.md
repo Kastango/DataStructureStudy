@@ -65,12 +65,11 @@ struct dynamic_list{
 
 **Fila Estática**
 ```C
-struct voidQueue {
-    int qtd;
-    void** data;
-    int max_itens;
-    int size;
-}; 
+struct int_sq {
+ int front, back ;
+ int max ;
+ int ∗data ;
+};
 ```
 
 **Fila Simplesmente Encadeada**
