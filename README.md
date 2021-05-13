@@ -39,7 +39,13 @@
 ### 5. Descreva as struct dos descritores e dos nó (quando for o caso) para a implementação das seguintes estruturas de dados: lista estática, lista dinâmica simplesmente encadeada, fila estática, fila simplesmente encadeada. As estrutura devem ser tais que inserções e remoções nas extremidades (início e fim), quando for o caso, são realizadas em O(1).
 
 **Lista Estática**
-```C```
+```C
+struct voidList {
+    int qtd;
+    void** data;
+    int max_itens;
+    int size;
+}; ```
 
 **Lista Dinâmica Simplesmente Encadeada**
 ```C
@@ -57,7 +63,13 @@ struct dynamic_list{
 ```
 
 **Fila Estática**
-```C```
+```C
+struct voidQueue {
+    int qtd;
+    void** data;
+    int max_itens;
+    int size;
+}; ```
 
 **Fila Simplesmente Encadeada**
 ```C
