@@ -40,11 +40,9 @@
 
 **Lista Estática**
 ```C
-struct voidList {
-    int qtd;
-    void** data;
-    int max_itens;
-    int size;
+struct staticList {
+ int qtd ;
+ int ∗data [ MAX ITEMS ] ;
 }; 
 ```
 
