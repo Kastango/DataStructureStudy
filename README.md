@@ -112,6 +112,8 @@ struct dynamic_list{
   | 0  | 1  |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 |
   |----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
   |[20]|[1] |    |    |[4] |    |    |[7] |[40]|    |[10]|    |[12]|[13]|[14]|[15]|    |    |[30]|[33]|
+  
+  [Link para um programa que resolve](http://www.cs.tufts.edu/~ablumer/openhashing.html)
 ### 7. Explique os três tipos se sondagem para tabelas de espalhamento (hash).
  * **Linear** g(k, i) = (h(k) + i) % m
    * Nessa sondagem apos a primeira tentativa soma-se 1 no índice para a seguinte 
