@@ -103,7 +103,7 @@ struct dynamic_list{
  
  ![image](https://lamfo-unb.github.io/img/Sorting-algorithms/Sorting_heapsort_anim.gif)
  
- **Mergesort**
+ **Mergesort** é um algorítmo de divisão e Conquista, ou seja, ele divide o problema em subproblemas e quando todas as pequenas partes tiverem sido solucionadas, o resultado é unido para dar a resposta do probleme inicial. Ou seja, primeramente o algorítmo irá dividir o Array na metade, em dois subarrays. Nesses dois subarrays há uma tentativa de ordenação, caso ainda não estejam em ordem, serão divididos novamentes e haverá uma nova tentativa de ordena-los. Quando o Algorítimo alcançar o caso ordenado, os subarrays são novamente combinados
  
   ![image](https://i.ibb.co/PW34M2v/merge-sort-gif-9.gif)
  
