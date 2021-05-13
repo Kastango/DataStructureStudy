@@ -89,7 +89,7 @@ struct dynamic_list{
 
   | 0  | 1  |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 |
   |----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
-  |[20]|[1] |[40]|    |[]  |    |    |[7] |    |    |[10]|[30]|[12]|[13]|[33]|[15]|[16]|    |    |    |    |
+  |[20]|[1] |[40]|    |    |    |    |[7] |    |    |[10]|[30]|[12]|[13]|[33]|[15]|[16]|    |    |    |    |
   * Tabela hash com 20 posições e colisão resolvida por sondagem quadrática e função de hash base g(k) = k%20
 ### 7. Explique os três tipos se sondagem para tabelas de espalhamento (hash).
  * **Linear** g(k, i) = (h(k) + i) % m
