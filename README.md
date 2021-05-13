@@ -113,3 +113,13 @@ struct dynamic_list{
 
 
 ### 9. Explique o que são Pilhas, Listas e Filas.
+ Todas as estruturas são tipos de armazenar e relacionar conjuntos de informações de forma organizada e, na maioria das vezes, sequencial.
+ **Conceito Pilha**
+    * Estrutura de dados lineares que se pode inserir e remover somente em uma mesma extremidade, na qual o último elemento a entrar é o primeiro a sair
+    * é uma lista linear em que todas as operações (inserção, retirada e consulta) são realizadas numa única extremidade da estrutura
+ **Conceito Fila**
+    * Estrutura de dados lineares que se pode inserir somente em uma extremidade e remover somente em uma outra extremidade, na qual o primeiro elemento a entrar é o primeiro a sair
+    *  é uma lista linear em que as inserções de novos nodos na estrutura são realizadas em uma das extremidades e as retiradas ou consultas aos nodos são realizadas na outra extremidade da lista.
+  **Conceito Lista**
+    * Estrutura de dados lineares indexadas que se pode inserir e remover em qualquer posição
+    * Lista é uma seqüência ordenada de elementos do mesmo tipo
