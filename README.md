@@ -98,18 +98,32 @@ struct dynamic_list{
    * Depois da primeira tentativa ele faz uso de outra função de hash para gerar a posição, os valores h₂ e m devem ser primos entre sí
 
 ### 8. Explique o algoritmo de heapsort, mergesort e quicksort.
- **Heapsort**
- 
- 
- ![image](https://lamfo-unb.github.io/img/Sorting-algorithms/Sorting_heapsort_anim.gif)
- 
- **Mergesort**
- 
-  ![image](https://i.ibb.co/PW34M2v/merge-sort-gif-9.gif)
- 
- **QuickSort** é um dos algorítimos de orneção mais eficientes de Divide and Conquer. Ele funciona selecionando um número pivo, que irá separar os números menores que ele à sua esquerda e os maiores a direita. Após essa partição, o pivot está em sua posição final. Isso é chamado de operação de partição. através de recursão a etapa é realizada novamente nos subarrays de elementos com valores menores separadamente ao sbuconjunto de velementos com valores maiores. O Seu pior caso tem complexidade de O(n²)
- 
- ![image](https://upload.wikimedia.org/wikipedia/commons/6/6a/Sorting_quicksort_anim.gif)
+ * **HeapSort** https://akiradev.netlify.app/posts/algoritmo-heap-sort/
+*Inicialmente, a Heap é construída ao mover os elementos para suas posições apropriadas no array. Isso significa que, à medida que os elementos são percorridos no array, a raiz, seu *filho esquerdo e seu filho direito são preenchidos, respectivamente, formando uma árvore binária.
+*Na segunda fase o elemento raiz é eliminado da Heap, sendo assim, movido para o fim do array.
+*Os elementos que ficaram, podem não ser uma Heap, sendo assim, repetimos os passos 1 e 2 para que tenhamos uma Max-Heap. Os procedimentos se repetem até que tenhamos todos os *elementos eliminados, assim teremos nosso array ordenado.
 
+* **MergeSort** https://akiradev.netlify.app/posts/algoritmo-merge-sort/
+Dividir
+Se q é o ponto central entre i e j, então podemos dividir o array X[i..j] em dois arrays: X[i..q] e X[q+1..j].
+Conquistar
+Na etapa de conquista, nós buscamos ordenar ambos os subarrays X[i..q] e X[q+1..j]. Caso ainda não tenhamos atingido o base case, nós novamente dividimos ambos os subarrays e tentamos novamente ordená-los.
+Combinar
+Quando a etapa de conquista alcança o base case e nós obtemos dois arrays ordenados X[i..q] e X[q+1..j] para o array original X[i..j], nós combinamos os resultados, criando um array ordenado X[i..j] através dos dois arrays ordenados X[i..q] e X[q+1..j].
+
+* **QuickSort** https://akiradev.netlify.app/posts/algoritmo-quick-sort/
+*Escolher um elemento do array que será chamado de pivot
+*Particionar: reordenar o array para que todos os elementos com valores menores que o pivot venham antes do pivot, enquanto todos os elementos com valores maiores que o pivot venham *depois dele. Após essa partição, o pivot está em sua posição final. Isso é chamado de operação de partição.
+*Aplicar recursivamente as etapas acima ao subarray de elementos com valores menores e separadamente ao subconjunto de elementos com valores maiores.
 
 ### 9. Explique o que são Pilhas, Listas e Filas.
+ * Todas as estruturas são tipos de armazenar e relacionar conjuntos de informações de forma organizada e, na maioria das vezes, sequencial.
+ * **Conceito Pilha**
+    * Estrutura de dados lineares que se pode inserir e remover somente em uma mesma extremidade, na qual o último elemento a entrar é o primeiro a sair
+    * é uma lista linear em que todas as operações (inserção, retirada e consulta) são realizadas numa única extremidade da estrutura
+ * **Conceito Fila**
+    * Estrutura de dados lineares que se pode inserir somente em uma extremidade e remover somente em uma outra extremidade, na qual o primeiro elemento a entrar é o primeiro a sair
+    *  é uma lista linear em que as inserções de novos nodos na estrutura são realizadas em uma das extremidades e as retiradas ou consultas aos nodos são realizadas na outra extremidade da lista.
+  * **Conceito Lista**
+    * Estrutura de dados lineares indexadas que se pode inserir e remover em qualquer posição
+    * Lista é uma seqüência ordenada de elementos do mesmo tipo
